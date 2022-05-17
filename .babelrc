@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src"],
+        "extensions": [".js", ".tsx", ".json", ".ios.js", ".android.js"]
+      }
+    ],
+    ["@babel/plugin-proposal-export-namespace-from"]
+  ]
+}

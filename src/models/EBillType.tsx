@@ -1,0 +1,4 @@
+export enum BILL_TYPE {
+  POST_PAID = 'POST_PAID',
+  INTERNET = 'INTERNET',
+}
